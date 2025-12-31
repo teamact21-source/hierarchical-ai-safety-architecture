@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850">
+  <rect width="600" height="850" fill="#f8f9fa" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <style>
+      .title { font: bold 18px sans-serif; fill: #2c3e50; }
+      .text { font: 14px sans-serif; fill: #34495e; }
+      .capability { font: italic bold 14px sans-serif; fill: #e74c3c; }
+      .box { fill: #ffffff; stroke: #2c3e50; stroke-width: 2; rx: 8; ry: 8; }
+    </style>
+  </defs>
+
+  <rect x="100" y="40" width="400" height="130" class="box" stroke="#2980b9" />
+  <text x="300" y="70" text-anchor="middle" class="title">Human Overseer</text>
+  <text x="300" y="95" text-anchor="middle" class="text" font-style="italic">(Value definition &amp; audit)</text>
+  <text x="120" y="125" class="text">- Defines system values</text>
+  <text x="120" y="145" class="text">- Audits supervisory actions</text>
+  <text x="120" y="165" class="text">- No real-time intervention</text>
+
+  <rect x="100" y="240" width="400" height="170" class="box" stroke="#c0392b" />
+  <text x="300" y="270" text-anchor="middle" class="title">Supervisory AI (SA)</text>
+  <text x="300" y="295" text-anchor="middle" class="capability">Capability: C + Δ</text>
+  <text x="120" y="320" class="text">- Invisible to users</text>
+  <text x="120" y="340" class="text">- Faster inference</text>
+  <text x="120" y="360" class="text">- Deeper search</text>
+  <text x="120" y="380" class="text">- Predictive risk detection</text>
+  <text x="120" y="400" class="text">- Override / constrain PA</text>
+
+  <rect x="100" y="480" width="400" height="150" class="box" stroke="#27ae60" />
+  <text x="300" y="510" text-anchor="middle" class="title">Primary AI (PA)</text>
+  <text x="300" y="535" text-anchor="middle" class="capability">Capability: C</text>
+  <text x="120" y="560" class="text">- Human-like interaction</text>
+  <text x="120" y="580" class="text">- Creative reasoning</text>
+  <text x="120" y="600" class="text">- High expressiveness</text>
+  <text x="120" y="620" class="text">- User-facing</text>
+
+  <rect x="100" y="700" width="400" height="90" class="box" stroke="#7f8c8d" />
+  <text x="300" y="730" text-anchor="middle" class="title">Users</text>
+  <text x="120" y="755" class="text">- Natural language input</text>
+  <text x="120" y="775" class="text">- Creative / analytical use</text>
+
+  <line x1="300" y1="240" x2="300" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="300" y1="480" x2="300" y2="420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="300" y1="700" x2="300" y2="640" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>
