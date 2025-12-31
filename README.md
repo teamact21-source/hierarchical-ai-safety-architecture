@@ -1,20 +1,33 @@
 # Hierarchical AI Safety Architecture
+This repository contains a proposed hierarchical AI safety framework  
+where a human-like Primary AI (PA) operates under an invisible,  
+strictly superior Supervisory AI (SA).
 
-This repository contains a research paper proposing a hierarchical AI safety model in which a human-like Primary AI (PA) is supervised by a strictly superior Supervisory AI (SA).
+---
 
-The architecture preserves expressiveness and creativity for users while ensuring robust safety through asymmetric capability dominance.
+## Full Paper
+The full paper is available here:
 
-## Contents
-- `paper.md` — Full research paper  
-- `figures/architecture.svg` — System diagram  
+→[paper.md](paper.md)
 
-## Paper
-The full paper is available here:  
- [paper.md](paper.md)
+---
 
-## Summary
-Conventional rule-based guardrails fail due to combinatorial explosion and adversarial prompting.  
-This architecture replaces surface-level filters with **structural dominance**, enabling an expressive user-facing model that remains safe under oversight by a superior system.
+## Figures
+- [Architecture Diagram (SVG)](figures/ai_safety_architecture.svg)
+- [Architecture Diagram (PDF)](figures/ai_safety_architecture.pdf)
+
+---
+
+## Overview
+This work proposes an asymmetric safety structure:
+- Primary AI (capability C)
+- Supervisory AI (capability C + Δ)
+- Human oversight (policy & audit)
+
+The system preserves expressiveness while ensuring strong safety  
+through structural dominance rather than guardrail enumeration.
+
+---
 
 ## License
 No license has been selected yet.
