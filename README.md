@@ -12,7 +12,7 @@ The full paper is available here:
 
 ---
 
-## 🖼 Figures
+## 📊 Figures
 - [Architecture Diagram (SVG)](figures/ai_safety_architecture.svg)
 - [Architecture Diagram (PDF)](figures/ai_safety_architecture.pdf)
 
@@ -26,6 +26,12 @@ This work proposes an asymmetric safety structure:
 
 The system preserves expressiveness while ensuring strong safety  
 through structural dominance rather than guardrail enumeration.
+
+---
+
+## 💬 Collaboration
+I believe the future of AI safety lies in structural design.  
+Feedback and academic collaboration are welcome in the **Discussions** section (to be enabled soon).
 
 ---
 
