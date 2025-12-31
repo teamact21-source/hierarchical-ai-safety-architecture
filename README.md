@@ -5,20 +5,20 @@ strictly superior Supervisory AI (SA).
 
 ---
 
-## Full Paper
+## 📄 Full Paper
 The full paper is available here:
 
-→[paper.md](paper.md)
+➡️ [paper.md](paper.md)
 
 ---
 
-## Figures
+## 🖼 Figures
 - [Architecture Diagram (SVG)](figures/ai_safety_architecture.svg)
 - [Architecture Diagram (PDF)](figures/ai_safety_architecture.pdf)
 
 ---
 
-## Overview
+## 🧠 Overview
 This work proposes an asymmetric safety structure:
 - Primary AI (capability C)
 - Supervisory AI (capability C + Δ)
