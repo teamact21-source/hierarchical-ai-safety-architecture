@@ -35,5 +35,5 @@ Feedback and academic collaboration are welcome in the **Discussions** section (
 
 ---
 
-## License
+## ⚖️ License
 No license has been selected yet.
