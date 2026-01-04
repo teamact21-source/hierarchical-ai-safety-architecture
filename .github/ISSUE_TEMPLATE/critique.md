@@ -4,8 +4,9 @@ about: Point out a flaw, ambiguity, or missing assumption (prefer Discussions �
 title: "[Critique] "
 labels: critique
 ---
+
 ⚠️ For critique, please use **Discussions → Critique** first:
-[Go to Discussions](https://github.com/teamact21-source/hierarchical-ai-safety-architecture/discussions)
+- [Go to Discussions][discussions]
 
 If you still need an Issue (actionable task), fill in below.
 
@@ -20,3 +21,5 @@ If you still need an Issue (actionable task), fill in below.
 
 ## Proposed fix (optional)
 (Concrete improvement, if you have one)
+
+[discussions]: https://github.com/teamact21-source/hierarchical-ai-safety-architecture/discussions
