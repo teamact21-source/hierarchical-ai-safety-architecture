@@ -1,6 +1,8 @@
-  ## TL;DR
+## TL;DR
 A safety architecture where a Primary AI operates under a strictly superior Supervisory AI (C+Δ),
 aiming for structural safety via asymmetric control rather than guardrail enumeration.
+
+[![DOI](https://zenodo.org/badge/1125695501.svg)](https://doi.org/10.5281/zenodo.18146772)
 
 ## Why it matters
 - Reduces reliance on brittle rule lists
@@ -24,10 +26,14 @@ The full paper is available here:
 
 ---
 
+## Citation / DOI
+DOI: https://doi.org/10.5281/zenodo.18146772
+
+---
+
 ## 📊 Figures
 - [Architecture Diagram (SVG)](ai_safety_architecture.svg)
 - [Architecture Diagram (PDF)](ai_safety_architecture.pdf)
-
 
 ---
 
