@@ -1,3 +1,15 @@
+## TL;DR
+A safety architecture where a Primary AI operates under a strictly superior Supervisory AI (C+Δ),
+aiming for structural safety via asymmetric control rather than guardrail enumeration.
+
+## Why it matters
+- Reduces reliance on brittle rule lists
+- Provides a clear audit surface for humans
+- Enables scalable oversight as capabilities grow
+
+## 1-minute diagram
+(ここにSVG表示)
+
 # Hierarchical AI Safety Architecture
 This repository contains a proposed hierarchical AI safety framework  
 where a human-like Primary AI (PA) operates under an invisible,  
