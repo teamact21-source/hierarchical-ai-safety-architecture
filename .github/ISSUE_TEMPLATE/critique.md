@@ -8,6 +8,8 @@ labels: critique
 ⚠️ For critique, please use **Discussions → Critique** first:
 - [Go to Discussions][discussions]
 
+**Use an Issue only if you’re proposing a concrete change request (text/diagram change) that can be tracked as a revision item.**
+
 If you still need an Issue (actionable task), fill in below.
 
 ## What part are you critiquing?
