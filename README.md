@@ -50,14 +50,11 @@ Feedback and academic collaboration are welcome in the **Discussions** section (
 
 ## ⚖️ License
 
-This project is dual-licensed to ensure both the code and its underlying philosophy are protected and accessible:
+## ⚖️ License
 
-- **Source Code**: Licensed under the [MIT License](LICENSE).
-- **Documentation, Papers, & Diagrams**: Licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-DOCS).
+This repository is **licensed by component**:
 
-### Under CC BY 4.0, you are free to:
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+- **Source code**: MIT License (see `LICENSE`)
+- **Documentation, papers, and diagrams**: CC BY 4.0 (see `LICENSE-PAPER`)
 
-### Under the following terms:
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+Under **CC BY 4.0**, you are free to share and adapt the material for any purpose (including commercial), **as long as you provide attribution** and indicate changes.
