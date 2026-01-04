@@ -1,12 +1,12 @@
-For critique, please use **Discussions → Critique** first:
-- [Go to Discussions](https://github.com/teamact21-source/hierarchical-ai-safety-architecture/discussions)
-
 ---
 name: Critique (use Discussions)
 about: Point out a flaw, ambiguity, or missing assumption (prefer Discussions → Critique)
 title: "[Critique] "
 labels: critique
 ---
+
+For critique, please use **Discussions → Critique** first:
+- [Go to Discussions](https://github.com/teamact21-source/hierarchical-ai-safety-architecture/discussions)
 
 ⚠️ For critique, please use **Discussions → Critique** first:
 https://github.com/teamact21-source/hierarchical-ai-safety-architecture/discussions
