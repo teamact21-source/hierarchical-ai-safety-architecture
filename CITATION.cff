@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- name: "teamACT-Kabuterion"
 title: "Hierarchical AI Safety Architecture"
-version: 1.0.0
-doi: "" 
-date-released: 2026-01-05
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - name: "teamACT"
+repository-code: "https://github.com/teamact21-source/hierarchical-ai-safety-architecture"
 url: "https://github.com/teamact21-source/hierarchical-ai-safety-architecture"
+license: "MIT"
