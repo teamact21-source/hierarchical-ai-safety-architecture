@@ -26,7 +26,7 @@ The full paper is available here:
 
 ## 📊 Figures
 - [Architecture Diagram (SVG)](ai_safety_architecture.svg)
-- [Architecture Diagram (PDF)]()
+- [Architecture Diagram (PDF)](ai_safety_architecture.pdf)
 
 
 ---
