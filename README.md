@@ -55,6 +55,6 @@ Feedback and academic collaboration are welcome in the **Discussions** section (
 This repository is **licensed by component**:
 
 - **Source code**: MIT License (see `LICENSE`)
-- **Documentation, papers, and diagrams**: CC BY 4.0 (see `LICENSE-PAPER`)
+- **Documentation, papers, and diagrams**: CC BY 4.0 (see `LICENSE-DOCS`)
 
 Under **CC BY 4.0**, you are free to share and adapt the material for any purpose (including commercial), **as long as you provide attribution** and indicate changes.
