@@ -1,4 +1,4 @@
-## TL;DR
+  ## TL;DR
 A safety architecture where a Primary AI operates under a strictly superior Supervisory AI (C+Δ),
 aiming for structural safety via asymmetric control rather than guardrail enumeration.
 
@@ -49,4 +49,15 @@ Feedback and academic collaboration are welcome in the **Discussions** section (
 ---
 
 ## ⚖️ License
-No license has been selected yet.
+
+This project is dual-licensed to ensure both the code and its underlying philosophy are protected and accessible:
+
+- **Source Code**: Licensed under the [MIT License](LICENSE).
+- **Documentation, Papers, & Diagrams**: Licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-DOCS).
+
+### Under CC BY 4.0, you are free to:
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+
+### Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
