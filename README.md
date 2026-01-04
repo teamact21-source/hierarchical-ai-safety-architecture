@@ -27,7 +27,10 @@ The full paper is available here:
 ---
 
 ## 📌 Citation / DOI
-DOI: https://doi.org/10.5281/zenodo.18146772
+[![DOI](https://zenodo.org/badge/1125695501.svg)](https://doi.org/10.5281/zenodo.18146772)
+
+- **Latest release (v1.0.0)**: https://doi.org/10.5281/zenodo.18146773  
+- **Concept DOI (all versions)**: https://doi.org/10.5281/zenodo.18146772
 
 ---
 
