@@ -50,8 +50,6 @@ Feedback and academic collaboration are welcome in the **Discussions** section (
 
 ## ⚖️ License
 
-## ⚖️ License
-
 This repository is **licensed by component**:
 
 - **Source code**: MIT License (see `LICENSE`)
