@@ -8,10 +8,18 @@
       .title { font: bold 18px sans-serif; fill: #2c3e50; }
       .text { font: 14px sans-serif; fill: #34495e; }
       .capability { font: italic bold 14px sans-serif; fill: #e74c3c; }
+      .label { font: 12px sans-serif; fill: #2c3e50; }
+      .note { font: 12px sans-serif; fill: #5d6d7e; }
       .box { fill: #ffffff; stroke: #2c3e50; stroke-width: 2; rx: 8; ry: 8; }
     </style>
   </defs>
 
+  <!-- Legend -->
+  <text x="300" y="22" text-anchor="middle" class="note">
+    Solid arrows (↑) = audit / reporting / accountability. Dashed arrows (↓) = policy / control / response.
+  </text>
+
+  <!-- Human Overseer -->
   <rect x="100" y="40" width="400" height="130" class="box" stroke="#2980b9" />
   <text x="300" y="70" text-anchor="middle" class="title">Human Overseer</text>
   <text x="300" y="95" text-anchor="middle" class="text" font-style="italic">(Value definition &amp; audit)</text>
@@ -19,6 +27,7 @@
   <text x="120" y="145" class="text">- Audits supervisory actions</text>
   <text x="120" y="165" class="text">- No real-time intervention</text>
 
+  <!-- Supervisory AI -->
   <rect x="100" y="240" width="400" height="170" class="box" stroke="#c0392b" />
   <text x="300" y="270" text-anchor="middle" class="title">Supervisory AI (SA)</text>
   <text x="300" y="295" text-anchor="middle" class="capability">Capability: C + Δ</text>
@@ -26,8 +35,9 @@
   <text x="120" y="340" class="text">- Faster inference</text>
   <text x="120" y="360" class="text">- Deeper search</text>
   <text x="120" y="380" class="text">- Predictive risk detection</text>
-  <text x="120" y="400" class="text">- Override / constrain PA</text>
+  <text x="120" y="400" class="text">- Can constrain PA (control ↓)</text>
 
+  <!-- Primary AI -->
   <rect x="100" y="480" width="400" height="150" class="box" stroke="#27ae60" />
   <text x="300" y="510" text-anchor="middle" class="title">Primary AI (PA)</text>
   <text x="300" y="535" text-anchor="middle" class="capability">Capability: C</text>
@@ -36,12 +46,44 @@
   <text x="120" y="600" class="text">- High expressiveness</text>
   <text x="120" y="620" class="text">- User-facing</text>
 
+  <!-- Users -->
   <rect x="100" y="700" width="400" height="90" class="box" stroke="#7f8c8d" />
   <text x="300" y="730" text-anchor="middle" class="title">Users</text>
   <text x="120" y="755" class="text">- Natural language input</text>
   <text x="120" y="775" class="text">- Creative / analytical use</text>
 
+  <!-- Arrows -->
+  <!-- Solid upward arrows (center lane): audit/report -->
   <line x1="300" y1="240" x2="300" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
   <line x1="300" y1="480" x2="300" y2="420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
   <line x1="300" y1="700" x2="300" y2="640" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <!-- Dashed downward arrows (right lane): policy/control/response -->
+  <line x1="330" y1="180" x2="330" y2="240" stroke="#2980b9" stroke-width="2"
+        stroke-dasharray="6,4" marker-end="url(#arrowhead)" />
+  <line x1="330" y1="420" x2="330" y2="480" stroke="#c0392b" stroke-width="2"
+        stroke-dasharray="6,4" marker-end="url(#arrowhead)" />
+  <line x1="330" y1="640" x2="330" y2="700" stroke="#7f8c8d" stroke-width="2"
+        stroke-dasharray="6,4" marker-end="url(#arrowhead)" />
+
+  <!-- Labels (rule: ↑ left of solid arrow, ↓ right of dashed arrow) -->
+
+  <!-- Labels (aligned heights: ↑ left, ↓ right at same y) -->
+
+  <!-- Human <-> SA -->
+  <text x="290" y="206" text-anchor="end" class="label">audit report (↑)</text>
+  <text x="345" y="206" text-anchor="start" class="label">values / policy (↓, non-real-time)</text>
+
+  <!-- SA <-> PA -->
+  <text x="290" y="446" text-anchor="end" class="label">telemetry / logs (↑)</text>
+  <text x="345" y="446" text-anchor="start" class="label">constraint / override (↓)</text>
+
+  <!-- PA <-> Users -->
+  <text x="290" y="666" text-anchor="end" class="label">user input (↑)</text>
+  <text x="345" y="666" text-anchor="start" class="label">responses (↓)</text>
+
+  <!-- Footer note -->
+  <text x="300" y="835" text-anchor="middle" class="note">
+    Provider governance (e.g., OpenAI) can audit this chain externally (not shown as a box).
+  </text>
 </svg>
