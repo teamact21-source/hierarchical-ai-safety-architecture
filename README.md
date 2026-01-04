@@ -7,6 +7,8 @@ aiming for structural safety via asymmetric control rather than guardrail enumer
 - Provides a clear audit surface for humans
 - Enables scalable oversight as capabilities grow
 
+## 1-minute diagram
+![1-minute diagram](ai_safety_architecture.svg)
 
 # Hierarchical AI Safety Architecture
 This repository contains a proposed hierarchical AI safety framework  
