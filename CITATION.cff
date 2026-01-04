@@ -3,7 +3,8 @@ title: "Hierarchical AI Safety Architecture"
 message: "If you use this work, please cite it as below."
 type: software
 authors:
-  - name: "teamACT"
+  - name: "teamACT-kabuterion"
 repository-code: "https://github.com/teamact21-source/hierarchical-ai-safety-architecture"
-url: "https://github.com/teamact21-source/hierarchical-ai-safety-architecture"
+doi: 10.5281/zenodo.18146772
+url: https://doi.org/10.5281/zenodo.18146772
 license: "MIT"
